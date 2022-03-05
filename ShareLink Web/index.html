@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="stylesheet" href="popup.css">
+	  <script src="firebase.js"></script>
+<script src="popup.js"></script>
+    </head>
+    <body>
+      <div id="bar" >
+			<h1 style="font-family: 'Black Han Sans', sans-serif; color: #5f9ea0;" > Share Link</h1>
+		</div>
+      <div id="div_login" style="position: relative; top:30%; width:100%; text-align: center; display: none">
+			<br><h1><b>Login</b></h1>
+			<br><input type="email" id="email" placeholder="Email" tabindex="1" required />
+			<br><br><input type="password" id="password" placeholder="Password" tabindex="2" required />
+			<br><h3><input type="checkbox" id="keeplogin" checked />Keep me signed in</h3>
+			<input type="button" id="btn_login" value="Login" tabindex="3" />
+	
+		</div>
+
+		<div id="div_user" style="position: relative; top:30%; width:100%; text-align: center; display: none">
+			<h1 id="username"> </h1><br>
+          <div id="div_url">
+             
+			 <a id="Image"  href="" target="_blank">Wait for link</a>
+			
+		  </div>
+			<button id="btn_logout">Logout</button><br><br>
+		</div>
+		<div id="bottom_bar">
+	<!-- <h4 style="font-size: 11px;color: #ffffff;padding: 0;margin: 0.2%;">You agree to our <a href="https://open-link-on-pc.firebaseapp.com/termsandconditions/" target="_blank" style="text-decoration: underline;color: #ffffff">Terms and Conditions</a> and <a href="https://open-link-on-pc.firebaseapp.com/privacypolicy/" target="_blank" style="text-decoration: underline;color: #ffffff">Privacy Policy</a></h4> -->
+</div>
+    </body>
+  </html>
